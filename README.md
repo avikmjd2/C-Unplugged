@@ -1,5 +1,8 @@
 🎵 C-Unplugged
- Complie Command:  gcc main.c audio.c song.c global.c doc.c libplay.c -o C-Unplugged.exe
+
+**Complie Command:**  gcc main.c audio.c song.c global.c doc.c libplay.c -o C-Unplugged.exe
+
+
 ATTENTION: Make sure to use commands the C-Unplugged is in the same folder as the audiofiles.
 
 A command-line music player and management system written entirely in C. C-Unplugged provides a simple, fast, and lightweight interface for managing your song library, creating custom playlists, and handling audio playback.
