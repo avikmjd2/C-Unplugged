@@ -43,16 +43,9 @@ Building the Project
 
 Clone the repository:
 
-git clone https://your-repo-url/c-unplugged.git
+git clone https://github.com/avikmjd2/C-Unplugged
 cd c-unplugged
 
-
-Compile the source files. The exact command depends on your audio library. A general example using gcc and linking the math library (-lm) would be:
-
-gcc main.c song.c playlist.c audio.c -o unplugged -lm -YourAudioLib
-
-
-(Replace -YourAudioLib with the correct linker flags, e.g., -lSDL2 -lSDL2_mixer)
 
 If a Makefile is provided:
 
@@ -68,8 +61,8 @@ Run the compiled executable from your terminal:
 
 You will be greeted by the C-Unplugged prompt. Type help to see a list of commands.
 
-Enter User: Gemini
-Gemini@C-Unplugged: help
+Enter User: user_name
+user_name@C-Unplugged: help
 
 
 📖 Command Reference
@@ -221,14 +214,6 @@ songs.csv: The main database of all songs (Comma-Separated Values).
 playlist.dat: A binary file that stores all user-created playlists and their songs.
 
 log.txt: A plain text file that logs all commands entered by the user.
-
-📚 References & Acknowledgements
-
-[Name of Audio Library]: This project uses the [Library Name] for audio playback. (e.g., fmod, BASS, SDL_mixer)
-
-[Any Other Libraries]: Any other third-party code or libraries used.
-
-[Inspiration/Tutorials]: Links to any tutorials, articles, or projects that inspired this one.
 
 ⚖️ License
 
